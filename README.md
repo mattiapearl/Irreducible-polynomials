@@ -5,3 +5,14 @@ Basic node implementation to get irreducible polynomials. Change primo (prime nu
 Highly unoptimized
 
 Lists is a set of pre-computed irreducibles that you can check
+
+## Format
+
+Format is
+
+[0,1,2,7,4,2]
+Growing left to right, degree of the x to which it is a coefficient
+
+the above would be
+
+0 + 1x + 2x^2 + 7x^3 + 4x^4 + 2x^5
